@@ -1,0 +1,15 @@
+
+target/
+dbt_packages/
+logs/
+.env
+# Database files (too large for GitHub, regenerable)
+*.duckdb
+*.duckdb.wal
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# OS files
+.DS_Store
